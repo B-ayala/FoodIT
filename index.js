@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 import authRoutes from './routes/authRoutes.js';
 import productsRouter from './routes/productsroutes.js'; 
-import { db } from './config/db.js';
+
 import { authentication } from './middlewares/auth.middleware.js';
 
 
