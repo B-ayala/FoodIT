@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 
 import authRoutes from './routes/authRoutes.js';
-import productsRouter from './routes/productsroutes.js'; 
+import productsRouter from './routes/productsRoutes.js'; 
 
 import { authentication } from './middlewares/auth.middleware.js';
 
